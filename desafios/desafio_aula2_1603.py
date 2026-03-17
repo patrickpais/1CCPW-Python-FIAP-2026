@@ -1,6 +1,7 @@
 nome = input("Digite seu primeiro nome: ") # str
 nome2 = input("Digite seu sobrenome: ") # str
 
+print("-----------NOME--------------")
 
 print(f'Bem-vindo(a) {nome} {nome2}')
 
@@ -12,7 +13,9 @@ ano = int(input("Digite o ano do seu nascimento (AAAA): "))
 
 idade = 2026 - ano
 print("-----------IDADE--------------")
-print(f'Sua data de nascimento é: {dia}/{mes}/{ano} e sua idade é: {idade}')
+print(f'Sua data de nascimento é: {dia}/{mes}/{ano}')
+print(f'Sua idade é: {idade}')
+
 print("-------------------------")
 
 n1 = int(input("Digite o primeiro número: "))
